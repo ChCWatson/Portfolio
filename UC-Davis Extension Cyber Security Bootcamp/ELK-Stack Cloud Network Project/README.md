@@ -17,9 +17,11 @@ The files in this repository were used to configure the network depicted below.
 
 ![](https://github.com/Plampking/ELK-STACK-PROJECT/blob/main/Diagrams/HW%20Diagram.jpg)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+[Elk Stack Playbook](https://github.com/Plampking/ELK-STACK-PROJECT/blob/main/Ansible/install-elk.yml)  
+[Filebeat Playbook](https://github.com/Plampking/ELK-STACK-PROJECT/blob/main/Ansible/filebeat-play.yml)  
+[Metricbeat Playbook](https://github.com/Plampking/ELK-STACK-PROJECT/blob/main/Ansible/metricbeat-playbook.yml)  
 
 This document contains the following details:
 - Description of the Topologu
@@ -39,11 +41,10 @@ Load blancers help a environment's availability through distribution of incoming
 The Jump Box provides a more efffect method to manage administration of multiple systems.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the event logs and system metrics.
-- Filebeat watches for log directories or specific log files.
-- Metricbeat helps monitor servers by collecting metrics from the system and services running within the server.
+- Filebeat monitors for specific log files.
+- Metricbeat helps monitor servers by taking the metrics and statistics that it collects and ships them to the output that you specify.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -137,14 +138,17 @@ We have installed the following Beats on these machines:
 - Metric Beat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+
+Filebeat is a lihtweight shipper for fowarding and centralizing log data. Filebeat monitors log files or locations what you specify, collects log events and sends them to a output that is specified.
+
+Metricbeat is used to periodically collect metrics from the operating system and from the services running on them. Metricbeat takes the metrics and statistics that it collects and sends them to a output that is specified.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
 - Copy the configuration file to ELK container.
-- Update the host file to include the Elk containers IP address.
+- Update the host file in the ansible directory to include the Elk-stack container and webservers IP addresses.
 - Run the playbook, and navigate to Kibana http://[Elk IP address]5601/app/kibana to check that the installation worked as expected.
 
 Commands in order to download the playbook, update the files, etc.
