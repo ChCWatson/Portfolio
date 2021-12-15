@@ -1,5 +1,15 @@
 # ELK-STACK-PROJECT
 UC-Davis Elk-Stack-Project
+  
+In this project I configure an ELK stack server in order to set up a cloud monitoring system. This project will result in tangible deliverables that demonstrate your knowledge of cloud, network security, logging and monitoring.
+   
+** Tasks
+
+- Deploy containers using Ansible and Docker.
+- Deploy Filebeat and Metricbeat using Ansible.
+- Deploy the ELK stack on a server.
+- Diagram networks and creating a README.
+- Craft documentation and interview responses to effectively communicate your achievements.
 
 ## Automated ELK Stack Deployment
 
