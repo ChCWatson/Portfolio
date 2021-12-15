@@ -1,7 +1,7 @@
 # ELK-STACK-PROJECT
 UC-Davis Elk-Stack-Project
   
-In this project I configure an ELK stack server in order to set up a cloud monitoring system. This project will result in tangible deliverables that demonstrate your knowledge of cloud, network security, logging and monitoring.
+In this project I configure an ELK stack server in order to set up a cloud monitoring system. This project will result in tangible deliverables that demonstrate my knowledge of cloud, network security, logging and monitoring.
    
 **Tasks**
 
