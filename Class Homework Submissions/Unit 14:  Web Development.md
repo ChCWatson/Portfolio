@@ -134,10 +134,13 @@ HTTP expresses the client's preference for an encrypted response.
 
 19. Does the request have a user session associated with it?
 ```
-Yes, the request has the user = Barbara and a password = password.
+The user does not have a user session associated with it.
 ```
 
 20. What kind of data is being sent from this request body?
+```
+The username and password would be sent from this request body.
+```
 
 **HTTP Response**
 
