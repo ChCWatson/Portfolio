@@ -18,10 +18,7 @@ HTTP request and response processs occurs in client-server architecture.
 
 2. What are the different parts of an HTTP request?
 ```
-The different parts of an HTTP request consist of a web client, web server and a database.  
-The web client is a user's device that communicates with a server to request resources
-from it.The web server queries the resources from the internal serves it is connected to.  
-Then the web server sends a response back to the client.
+The different parts of an HTTP request is the Request Line, Headers, Whitespace.
 ```
 
 3. Which part of an HTTP request is optional?
