@@ -134,7 +134,7 @@ HTTP expresses the client's preference for an encrypted response.
 
 19. Does the request have a user session associated with it?
 ```
-Yes, the reques has the user = Barbara and a password = password.
+Yes, the request has the user = Barbara and a password = password.
 ```
 
 20. What kind of data is being sent from this request body?
@@ -175,9 +175,12 @@ Yes, the sessionID = 5
 
 24. What kind of content is likely to be in the [page content] response body?
 ```
-A users costom web page.
+A text/html file.
 ```
 25. If your class covered security headers, what security request headers have been included?
+```
+The Stric-Transport-Security has been included in the request header.
+```
 
 #### Monoliths and Microservices
 
