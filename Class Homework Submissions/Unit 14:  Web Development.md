@@ -94,6 +94,9 @@ Answer the following questions about sessions and cookies:
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
+```
+The response header Set-cookie: cart=Bob sends a cookie to the client.
+```
 
 16. Which request header will continue the client's session?
 
@@ -123,10 +126,19 @@ username=Barbara&password=password
 ```
 
 17. What is the request method?
+```
+POST is the request method.
+```
 
 18. Which header expresses the client's preference for an encrypted response?
+```
+HTTP expresses the client's preference for an encrypted response.
+```
 
 19. Does the request have a user session associated with it?
+```
+Yes, the reques has the user = Barbara and a password = password.
+```
 
 20. What kind of data is being sent from this request body?
 
@@ -150,13 +162,24 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
+```
+The response status code is 200
+```
 
 22. What web server is handling this HTTP response?
+```
+Apache is the web server handling this HTTP response.
+```
 
 23. Does this response have a user session associated to it?
+```
+Yes, the sessionID = 5
+```
 
 24. What kind of content is likely to be in the [page content] response body?
-
+```
+A users costom web page.
+```
 25. If your class covered security headers, what security request headers have been included?
 
 #### Monoliths and Microservices
