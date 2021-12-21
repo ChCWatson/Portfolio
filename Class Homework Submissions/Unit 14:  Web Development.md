@@ -75,8 +75,15 @@ The 'curl' option that is used to set request headers is '-H'
 ```
 
 13. Which `curl` option is used to view the response header?
+```
+curl -i
+```
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
+```
+options
+```
+options
 
 #### Sessions and Cookies
 
