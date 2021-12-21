@@ -388,31 +388,47 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 1. Construct a `curl` request that enters two forms: `"log={username}"` and `"pwd={password}"` and goes to `http://localhost:8080/wp-login.php`. Enter Ryan's credentials where there are placeholders.
 
     - **Question:** Did you see any obvious confirmation of a login? (Y/N)
+    ```
+    No, there is no obvious confirmation of a login.
+    ```
 
 2. Construct the same `curl` request, but this time add the option and path to save your cookie: `--cookie-jar ./ryancookies.txt`. This option tells `curl` to save the cookies to the `ryancookies.txt` text file.
 
 3. Read the contents of the `ryancookies.txt` file.
 
    - **Question:** How many items exist in this file?
+   ```
+   Four items exist in this file.
+   ```
 
 Note that each one of these is a cookie that was granted to Ryan after logging in.
 
 #### Step 4: Log in Using Cookies
 
 1. Craft a new `curl` command that now uses the `--cookie` option, followed by the path to your cookies file. For the URL, use `http://localhost:8080/wp-admin/index.php`.
-
+```
+curl --cookie ./ryancookies.txt http://localhost:8080/wp-admin/index.php
+```
    - **Question:** Is it obvious that we can access the Dashboard? (Y/N)
+   ```
+   It is not obipous that we can access the Dashboard.
+   ```
 
 2. Press the up arrow on your keyboard to run the same command, but this time, pipe `| grep Dashboard` to the end of your command to return all instances of the word `Dashboard` on the page.
 
     - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) If so, you should be successfully logged in to your Editor's dashboard.
+    ```
+    Yes! After using the grep command we can see that we have successfully logged into the index.php.
+    ```
 
 #### Step 5: Test the Users.php Page
 
 1. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php`.
 
     - **Question:** What happens this time?
-
+    ```
+    The response "Sorry, you are nott allowed to browse users" returns.
+    ```
 ---
 
 ### Submission Guidelines
