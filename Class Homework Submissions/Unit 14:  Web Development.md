@@ -190,8 +190,12 @@ The Stric-Transport-Security has been included in the request header.
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
+```
+The individual components of a microservice is called 
+```
 
 27. What is a service that writes to a database and communicates to other services?
+```
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
