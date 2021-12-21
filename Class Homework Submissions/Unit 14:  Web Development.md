@@ -191,29 +191,50 @@ Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
 ```
-The individual components of a microservice is called 
+The individual components of a microservice is called a Service
 ```
 
 27. What is a service that writes to a database and communicates to other services?
 ```
+An API (Application Programming Interface) is a service that writes to a databade and communicates to other services.
+```
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
+```
+A container is the type of underlying techology to allow for microservices to become scalable and have redundancy
+```
 
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
+```
+A Docker allows one to deploy mulltiple containers at once.
+```
 
 30. What kind of file format is required for us to deploy a container set?
+```
+A .yml is the file format required to deploy a container set.
+```
+
 
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
+```
+selct & from customers.
+```
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
+```
+INSERT INTO
+```
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
+```
+Running this command would delete all tables.
+```
 
 ---
 
