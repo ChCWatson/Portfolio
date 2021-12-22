@@ -13,12 +13,12 @@ Answer the following questions about the HTTP request and response process.
 1. What type of architecture does the HTTP request and response process occur in?
 
 ```
-HTTP request and response processs occurs in client-server architecture.  
+HTTP request and response processes occur in a client-server architecture.  
 ```
 
 2. What are the different parts of an HTTP request?
 ```
-The different parts of an HTTP request is the Request Line, Headers, Whitespace.
+The different parts of an HTTP request are the Request Line, Headers, Whitespace.
 ```
 
 3. Which part of an HTTP request is optional?
@@ -49,7 +49,7 @@ Post is the type of HTTP request method used for sending data.
 
 8. Which part of an HTTP request contains the data being sent to the server?
 ```
-The Header is the part of the HTTP request that contian the data being sent to the server.
+The Header is the part of the HTTP request that contains the data being sent to the server.
 ```
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
@@ -189,7 +189,7 @@ A text/html file.
 ```
 25. If your class covered security headers, what security request headers have been included?
 ```
-The Stric-Transport-Security has been included in the request header.
+The Strict-Transport-Security has been included in the request header.
 ```
 
 #### Monoliths and Microservices
@@ -198,17 +198,17 @@ Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
 ```
-The individual components of a microservice is called a Service
+The individual components of a microservice are called a Service
 ```
 
 27. What is a service that writes to a database and communicates to other services?
 ```
-An API (Application Programming Interface) is a service that writes to a databade and communicates to other services.
+An API (Application Programming Interface) is a service that writes to a database and communicates to other services.
 ```
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 ```
-A container is the type of underlying techology to allow for microservices to become scalable and have redundancy
+A container is the type of underlying technology to allow for microservices to become scalable and have redundancy
 ```
 
 #### Deploying and Testing a Container Set
@@ -217,7 +217,7 @@ Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
 ```
-A Docker allows one to deploy mulltiple containers at once.
+A Docker allows one to deploy multiple containers at once.
 ```
 
 30. What kind of file format is required for us to deploy a container set?
@@ -230,7 +230,7 @@ A .yml is the file format required to deploy a container set.
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 ```
-selct & from customers.
+select & from customers.
 ```
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
@@ -418,7 +418,7 @@ curl --cookie ./ryancookies.txt http://localhost:8080/wp-admin/index.php
 ```
    - **Question:** Is it obvious that we can access the Dashboard? (Y/N)
    ```
-   It is not obipous that we can access the Dashboard.
+   It is not obvious that we can access the Dashboard.
    ```
 
 2. Press the up arrow on your keyboard to run the same command, but this time, pipe `| grep Dashboard` to the end of your command to return all instances of the word `Dashboard` on the page.
@@ -434,7 +434,7 @@ curl --cookie ./ryancookies.txt http://localhost:8080/wp-admin/index.php
 
     - **Question:** What happens this time?
     ```
-    The response "Sorry, you are nott allowed to browse users" returns.
+    The response "Sorry, you are not allowed to browse users" returns.
     ```
 ---
 
