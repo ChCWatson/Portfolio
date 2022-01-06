@@ -16,3 +16,8 @@ This work portfolio displays some of my most recent work and class projects. Thi
 In the last three months my most recent work is:
      
 [University of Davis - Cyber Security Bootcamp](https://github.com/Plampking/Portfolio/tree/main/UC-Davis%20Extension%20Cyber%20Security%20Bootcamp)
+
+
+
+## Resume
+![Resume](https://github.com/ChCWatson/Portfolio/blob/main/Christopher%20Watson%20-%20Security%20Systems%20Analyst%20-%20Resume-page-001.jpg)
