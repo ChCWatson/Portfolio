@@ -20,4 +20,4 @@ In the last three months my most recent work is:
 
 
 ## Resume
-![Resume](https://github.com/ChCWatson/Portfolio/blob/main/Resume.jpg)
+![Resume](https://github.com/ChCWatson/Portfolio/blob/main/Resume.jpg;)
