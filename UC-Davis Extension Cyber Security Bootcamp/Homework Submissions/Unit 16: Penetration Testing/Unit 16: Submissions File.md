@@ -69,14 +69,24 @@ nmap -sV 192.168.0.10
 nmap -sV -oN zenmapscan.txt 192.168.0.10
 ```
 
-- Zenmap vulnerability script command: 
+- Zenmap vulnerability script command:
+```
+nmap -p 139,445 --script smb-enum-shares 192.168.9.10
+```
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
+  ```
+  The open shares is the vulnerability
+  ```
 
   2. Why is it dangerous:
-
+```
+This vulnerability could allow attackers the ability to access writable files. This could allow the attacker to place a Trojan or to infect a file.
+```
   3. What mitigation strategies can you recommendations for the client to protect their server:
-
+```
+Update and patch the server.
+```
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
