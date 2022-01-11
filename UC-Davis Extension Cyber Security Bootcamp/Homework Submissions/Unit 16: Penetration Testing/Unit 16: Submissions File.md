@@ -10,7 +10,9 @@ Using the Google search "site:demo.testfire.net "Cheif Exective Officer"" I iden
 
 - How can this information be helpful to an attacker:
 ```
-This information has many vulneribilities from a social engineering position. An attacker could use this name to impersonate an executive member to gather more sensitive information from lower ranked employees. An attacker could use email to conduct this impersonation.
+This information has many vulneribilities from a social engineering position. An attacker could use 
+this name to impersonate an executive member to gather more sensitive information from lower ranked employees.  
+An attacker could use email to conduct this impersonation.
 ```
 
 #### Step 2: DNS and Domain Discovery
