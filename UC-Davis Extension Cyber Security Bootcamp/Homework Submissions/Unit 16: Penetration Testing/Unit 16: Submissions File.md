@@ -84,7 +84,8 @@ nmap -p 139,445 --script smb-enum-shares 192.168.9.10
 
   2. Why is it dangerous:
 ```
-This vulnerability could allow attackers the ability to access writable files. This could allow the attacker to place a Trojan or to infect a file.
+This vulnerability could allow attackers the ability to access writable files. 
+This could allow the attacker to place a Trojan or to infect a file.
 ```
   3. What mitigation strategies can you recommendations for the client to protect their server:
 ```
