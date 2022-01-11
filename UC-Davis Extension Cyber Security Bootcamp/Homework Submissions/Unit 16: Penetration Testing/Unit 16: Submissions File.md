@@ -18,12 +18,21 @@ This information has many vulneribilities from a social engineering position. An
 Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
 
   1. Where is the company located: 
+  ```
+  This company is located at 9725 Datapoint Drive, Suite 100 San Antonio TX, 78229
+  ```
 
   2. What is the NetRange IP address:
+  ```
+  The NetRange of this IP address is 65.61.137.64 - 65.61.137.127
+  ```
 
   3. What is the company they use to store their infrastructure:
 
   4. What is the IP address of the DNS server:
+  ```
+  The IP address of the DNS server is 65.61.137.117
+  ```
 
 #### Step 3: Shodan
 
