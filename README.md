@@ -14,7 +14,9 @@ This work portfolio displays some of my most recent work and class projects. Thi
      
 ## Most Recent Work
 
-I just finished up my [Red vs. Blue Project](https://github.com/ChCWatson/Portfolio/blob/main/UC-Davis%20Extension%20Cyber%20Security%20Bootcamp/Red%20Vs.%20Blue%20Project/Chris%20Watson%20Red%20vs%20Blue%20Project.pdf). This allowed me to take the role of a SOC Analyst and Pentester.
+### In the last three months my most recent work is:
+
+[Red vs. Blue Project](https://github.com/ChCWatson/Portfolio/blob/main/UC-Davis%20Extension%20Cyber%20Security%20Bootcamp/Red%20Vs.%20Blue%20Project/Chris%20Watson%20Red%20vs%20Blue%20Project.pdf). This allowed me to take the role of a SOC Analyst and Pentester.
 
 ---
 
