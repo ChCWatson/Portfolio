@@ -16,6 +16,18 @@ This work portfolio displays some of my most recent work and class projects. Thi
 
 I just finished up my [Red vs. Blue Project](https://github.com/ChCWatson/Portfolio/blob/main/UC-Davis%20Extension%20Cyber%20Security%20Bootcamp/Red%20Vs.%20Blue%20Project/Chris%20Watson%20Red%20vs%20Blue%20Project.pdf). This allowed me to take the role of a SOC Analyst and Pentester.
 
+[UC-Davis Elk-Stack-Project]()
+
+In this project I configure an ELK stack server in order to set up a cloud monitoring system. This project will result in tangible deliverables that demonstrate my knowledge of cloud, network security, logging and monitoring.
+
+Tasks
+
+Deploy containers using Ansible and Docker.
+Deploy Filebeat and Metricbeat using Ansible.
+Deploy the ELK stack on a server.
+Diagram networks and creating a README.
+Craft documentation and interview responses to effectively communicate your achievements.
+
      
 In the last three months my most recent work is:
      
