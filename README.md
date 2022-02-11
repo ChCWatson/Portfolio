@@ -6,9 +6,10 @@ This work portfolio displays some of my most recent work and class projects. Thi
    
    
    ## Goals
-   - In March I plan to take my Security+ Exam
+   - I plan to take my Security+ Exam in March
    - Finish my Python coding class
    - Research and begin a Pen-Testing Training course
+   - Begin applying to Network Admin or SOC Analyst positions
       
      
 ## Most Recent Work
