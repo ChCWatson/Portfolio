@@ -11,7 +11,10 @@ This work portfolio displays some of my most recent work and class projects. Thi
    - Research and begin a Pen-Testing Training course
       
      
-## Most Recent Work  
+## Most Recent Work
+
+I just finished up my [Red vs. Blue project](). This allowed me to take the role of a SOC Analyst and Pentester.
+
      
 In the last three months my most recent work is:
      
