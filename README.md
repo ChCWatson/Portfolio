@@ -21,3 +21,4 @@ In the last three months my most recent work is:
 
 ## Resume
 ![Resume](https://github.com/ChCWatson/Portfolio/blob/main/Resume/%5BChristopher%20Watson%5D%20Resume.jpg)
+![Resume2](https://github.com/ChCWatson/Portfolio/blob/main/Resume/%5BChristopher%20Watson%5D%20Resume_pg2.jpg)
