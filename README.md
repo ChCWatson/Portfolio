@@ -41,6 +41,6 @@ Craft documentation and interview responses to effectively communicate your achi
 
 
 ## Resume
-![Resume](https://github.com/ChCWatson/Portfolio/blob/main/Resume/%5BChristopher%20Watson%5D%20Resume.jpg)
+![Resume](https://github.com/ChCWatson/Portfolio/blob/main/Watson%2C%20Christopher%202022%20resume.pdf)
 ![Resume2](https://github.com/ChCWatson/Portfolio/blob/main/Resume/%5BChristopher%20Watson%5D%20Resume_pg2.jpg)
 ![Resume3](https://github.com/ChCWatson/Portfolio/blob/main/Resume/%5BChristopher%20Watson%5D%20Resume_pg3.jpg)
